@@ -1,3 +1,7 @@
+# Captures
+  ![Capture 1](https://github.com/excellentsoft-org/datetime-selector-java/blob/master/blob/capture1.jpg?raw=true)
+
+
 # Datetime-selector-java
 DateTimeSelector is a public project created by excellentsoft for the community, it allows two Graphic Options: 
 - Date Picker. 
@@ -6,6 +10,7 @@ DateTimeSelector is a public project created by excellentsoft for the community,
 DateTimeSelector es un projecto publico creado por excellentsoft para la comunidad, permite dos Opciones Gráficas: 
 - Seleccionador de Fecha (Date).
 - Seleccionador de Fecha y Hora (TimeStamp)
+
 
 # How to install
   

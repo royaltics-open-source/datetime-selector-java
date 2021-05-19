@@ -132,7 +132,7 @@ public final class DateSelectorGraphis
         gbc.gridx = 8;
         p2.add(nYear, gbc);
         //-----------
-        JLabel apply = new JLabel("By DjascDev        SELECCIONAR", JLabel.CENTER);
+        JLabel apply = new JLabel("                     SELECCIONAR", JLabel.CENTER);
         apply.setForeground(theme_default[6]);
         apply.setPreferredSize(new Dimension(90, 32));
         apply.setFont(new java.awt.Font("Dialog", 1, 10));

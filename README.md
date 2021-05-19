@@ -14,7 +14,7 @@ DateTimeSelector es un projecto publico creado por excellentsoft para la comunid
 
 # How to install
   
-  Download Binaries (.jar) (v1.0.0) => []
+  Download Binaries (.jar.zip) (v1.0.0) => [Download .zip v1.0.0](https://github.com/excellentsoft-org/datetime-selector-java/blob/master/dist/org.excellentsoft.dateselector.zip?raw=true)
 
 # How to use it
 
@@ -40,9 +40,10 @@ DateTimeSelector es un projecto publico creado por excellentsoft para la comunid
  
 ```
 
-# Version
-  - v0.0.0 [master](https://github.com/excellentsoft-org/datetime-selector-java)
-  - v1.0.0 [tag v1.0.0](https://github.com/excellentsoft-org/datetime-selector-java)
+# Branch and Versions
+  - v0.0.0 [master](https://github.com/excellentsoft-org/datetime-selector-java/blob/master)
+  - v1.0.0 [dev](https://github.com/excellentsoft-org/datetime-selector-java/blob/dev)
+  - v1.0.0 [tag v1.0.0](https://github.com/excellentsoft-org/datetime-selector-java/blob/v1.0.0)
 
 # Next Features 
 Version |    Date    | Notes

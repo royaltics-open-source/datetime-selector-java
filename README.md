@@ -20,17 +20,17 @@ DateTimeSelector es un projecto publico creado por excellentsoft para la comunid
 
  ```Java
  //If you want the date to be selected with one click 
- com.djasc.dateselector.Constants.THEME_COUNT_CLIC_SELECT = 1;
+org.excellentsoft.dateselector.Constants.THEME_COUNT_CLIC_SELECT = 1;
  
  //If you want the date to be selected with double click 
- // com.djasc.dateselector.Constants.THEME_COUNT_CLIC_SELECT = 2;
+ // org.excellentsoft.dateselector.Constants.THEME_COUNT_CLIC_SELECT = 2;
  
- DateSelector dateSelector1 = new com.djasc.dateselector.DateSelector();
- DateTimeSelector dateTimeSelector1 = new com.djasc.dateselector.DateTimeSelector();
+ DateSelector dateSelector1 = new org.excellentsoft.dateselector.DateSelector();
+ DateTimeSelector dateTimeSelector1 = new org.excellentsoft.dateselector.DateTimeSelector();
  
  //If you want to change the default theme set Theme_default Colors with A constant
  //Constants.THEME_ID_DEFAULT | Constants.THEME_ID_WHITE | Constants.THEME_ID_RED | Constants.THEME_ID_BLUE
- //dateSelector1.setLectThemesDefault(com.djasc.dateselector.Constants.THEME_NAME)
+ //dateSelector1.setLectThemesDefault(org.excellentsoft.dateselector.Constants.THEME_NAME)
  
  JOptionPane.showMessageDialog(this, "Select Date IS: "+dateSelector1.getSelectDate());
  System.out.println(dateSelector1.getSelectedDate());

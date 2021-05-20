@@ -157,10 +157,21 @@ public class DateTimeSelector extends JPanel {
     }
     
     
-    public void setDate(Timestamp date) {
-        this.selectDate = date == null ? null : formatParse.format(date);
-        dateSelect.setText(this.selectDate);
+   public void setDate(Date date) {
+        if(date != null){
+            setDate(new Timestamp(date.getTime()));
+        }
     }
+    
+    public void setDate(Timestamp date) {
+        String dateTime = date == null ? null : formatParse.format(date);
+        if(dateTime != null){
+            this.selectDate = dateTime.split(" ")[0];
+            dateSelect.setText(this.selectDate);
+            jTime.setText(dateTime.split(" ")[1]);
+        }
+    }
+    
 
     /**
      * //TODO: Set TimeStamp
